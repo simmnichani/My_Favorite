@@ -1,0 +1,163 @@
+body {
+    text-align: center;
+}
+
+#profile {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#welcome {
+    color: white;
+    background: linear-gradient(#1AF1E1 0%, #1AF1A8 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    bottom: 0;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+#name {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: cursive;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: monospace;
+    font-weight: 300;
+}
+
+#bio {
+    text-align: center;
+    padding: 50px;
+    font-size: 42px;
+    background-color: aquamarine;
+}
+
+.div1 {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+
+p {
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3;
+    text-align: center;
+}
+
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    position: absolute;
+    top: 0px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.links {
+    float: left;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.links:hover {
+    background-color: cadetblue;
+}
+
+#Gymnastics {
+    text-align: center;
+    width: 100%;
+    background-color: paleturquoise;
+}
+
+a {
+    text-decoration: none;
+}
+
+#apps {
+    width: 100%;
+    background-color: aliceblue;
+}
+
+#Contact {
+    text-align: center;
+    width: 100%;
+}
+
+.Gmail_ID {
+    display: inline;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: -100;
+}
+
+#app {
+    width: 100%;
+    height: 800px;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+}
+
+#myCarousel {
+    background-color: rgb(96, 168, 236);
+}
+
+#myCarousel img {
+    height: 300px;
+    margin-top: 35px;
+}
+
+.carousel-inner p {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+#myCarousel2 {
+    background-color: #b5d0d4;
+}
+
+#myCarousel2 img {
+    height: 300px;
+    margin-top: 35px;
+}
+
+.my_nav_bar {
+    position: sticky;
+    top: 0;
+    z-index: 99999
+}
+
+input {
+    background: grey;
+}
